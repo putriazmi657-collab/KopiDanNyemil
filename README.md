@@ -107,29 +107,31 @@ Berikut dokumentasi tampilan aplikasi Kopi dan Nyemil.
 
 > Tambahkan screenshot asli dari aplikasi pada folder `screenshots` di repository GitHub, kemudian gunakan nama file sesuai daftar berikut.
 
-### Splash Screen
-![Splash Screen](screenshots/splash-screen.jpeg)
+## Screenshots
 
-### Sign Up
-![Sign Up](screenshots/sign-up.jpeg)
+### 1. Splash Screen
+![Splash Screen](screenshots/Splash%20Screen.jpeg)
 
-### Register
-![Register](screenshots/register.jpeg)
+### 2. Sign Up
+![Sign Up](screenshots/Sign%20up.jpeg)
 
-### Login
-![Login](screenshots/login.jpeg)
+### 3. Register
+![Register](screenshots/Register.jpeg)
 
-### Home
-![Home](screenshots/home.jpeg)
+### 4. Login
+![Login](screenshots/Login.jpeg)
 
-### Profile
-![Profile](screenshots/profile.jpeg)
+### 5. Home
+![Home](screenshots/Home.jpeg)
 
-### Alamat Pengiriman
-![Alamat Pengiriman](screenshots/alamat-pengiriman.jpeg)
+### 6. Profil
+![Profil](screenshots/Profil.jpeg)
 
-### Konfirmasi Pesanan
-![Konfirmasi Pesanan](screenshots/konfirmasi-pesanan.jpeg)
+### 7. Alamat Pesanan
+![Alamat Pesanan](screenshots/Alamat%20pesanan.jpeg)
+
+### 8. Konfirmasi Pesanan
+![Konfirmasi Pesanan](screenshots/Konfirmasi%20Pesanan.jpeg)
 
 ## 9. Repository GitHub
 
