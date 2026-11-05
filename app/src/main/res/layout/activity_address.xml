@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0"
+    android:fillViewport="true">
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pengiriman"
+            android:textColor="#4E342E"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍"
+            android:textSize="65sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lengkapi Informasi Pengiriman"
+            android:textColor="#5D4037"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Penerima"
+            android:textColor="#5D4037"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etRecipient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan nama penerima"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nomor Telepon"
+            android:textColor="#5D4037"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan nomor telepon"
+            android:inputType="phone"
+            android:padding="14dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Lengkap"
+            android:textColor="#5D4037"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etFullAddress"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Masukkan jalan, nomor rumah, RT/RW, kelurahan, dan kecamatan"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="14dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="26dp" />
+
+        <Button
+            android:id="@+id/btnSaveAddress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Simpan Alamat"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:backgroundTint="#5D4037" />
+
+        <Button
+            android:id="@+id/btnAddressBack"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Kembali ke Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:backgroundTint="#A1887F"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
